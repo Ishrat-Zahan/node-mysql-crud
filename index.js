@@ -4,7 +4,7 @@ const db = require('./db');
 
 const http = require('http');
 const server = http.createServer((req, res) => {
-    // Serve static files (HTML, JS, CSS)
+  
     if (req.method === 'GET' && req.url === '/') {
         const filePath = path.join(__dirname, 'public', 'index.html');
         fs.readFile(filePath, (err, data) => {
@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
                 res.end(data);
             }
         });
-    } 
+    }
     // CRUD routes (as before)
     else if (req.method === 'GET' && req.url === '/users') {
         db.query('SELECT * FROM users', (err, results) => {

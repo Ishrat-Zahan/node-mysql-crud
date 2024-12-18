@@ -1,0 +1,6 @@
+1. module (multiple separate js file).
+2.from where requrie,--filename come from
+3.how to export import multiple thing,how will we get the data in other folder.
+4.window & global.
+5.path  https://nodejs.org/api/path.html
+6. os
