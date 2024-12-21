@@ -4,3 +4,5 @@
 4.window & global.
 5.path  https://nodejs.org/api/path.html
 6. os
+7.fs.
+8.events. 
